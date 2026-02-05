@@ -5110,6 +5110,28 @@ figure.highlight pre .javascript .function {
 #post .ads-wrap {
   margin: 40px 0;
 }
+.post-content h2 {
+  position: relative;
+  padding-left: 16px;
+  color: #2c3e50;
+  font-weight: 600;
+  margin: 20px 0 12px 0;
+}
+.post-content h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 4px;
+  height: 18px;
+  background-color: #3498db;
+  border-radius: 2px;
+}
 .relatedPosts {
   margin-top: 40px;
 }
